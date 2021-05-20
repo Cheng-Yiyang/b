@@ -1,0 +1,72 @@
+
+miner.stop()
+eth.getTransaction(0x00f59d882e67ea9ce4ad661d94c491e3c8ad9f67570b22fc02ef58ff260ede04
+)
+eth.getTransaction("0x00f59d882e67ea9ce4ad661d94c491e3c8ad9f67570b22fc02ef58ff260ede04")
+eth.accounts
+abi=[{"constant":false,"inputs":[{"name":"v1","type":"uint256[5]"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"storageArr","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"update","outputs":[{"name":"","type":"uint256[5]"}],"payable":false,"stateMutability":"view","type":"function"}]
+sample=eth.contract(abi)
+SampleHex=eth.getCode("0x468ee389d679365a2d03814ab3fda14607691655")
+SampleContract=sample.at("0x468ee389d679365a2d03814ab3fda14607691655")
+get("0xd095bcb3e0b89b4e6353e59d526ea88e726ecf50");
+sampleContract.get.call()
+sampleContract.update.call()
+SampleContract.update.call()
+SampleContract.set([1,2,3,4,5],{from:eth.accounts[0], gas:3000000})
+miner.start()
+miner.stop()
+SampleContract.update.call()
+SampleContract.update.call()SampleContract=sample.at("0x468ee389d679365a2d03814ab3fda14607691655")
+SampleContract=sample.at("0x468ee389d679365a2d03814ab3fda14607691655")
+SampleContract.get.call()
+SampleContract.update.call()
+eth.accounts
+eth.getTransaction("0x00f59d882e67ea9ce4ad661d94c491e3c8ad9f67570b22fc02ef58ff260ede04")
+function set(from, number) {
+...     MyContract.methods.set(number).send({from:from},function(err,result){
+.....         if (err) {
+.......             console.log(err)
+.......         }
+..... console.log(result)
+.....     })
+... }
+samplerecpt
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+admin.peers
+miner.stop()
+miner.start()
+miner.stop()
+admin.info
+admin.nodeInfo.enode
+admin.addPeer("enode://5f25e6ab798ad8103592582363634388da2196dceedd75f58546fffe5b9947a23e92bae53ad68018f430ca6936e566b966e687c8cb3396422a4aa645fd08c160@127.0.0.1:30306?discport=0")
+miner.start()
+miner.stop()
+miner.start()
+miner.stop()
+miner.start()
+miner,stop()
+miner.stop()
+samplecontract.update.call()
+miner.start()
+abi=[{"constant":true,"inputs":[],"name":"count","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"gettime","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"storageArr","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"v1","type":"uint256[]"}],"name":"set","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"checker","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"update","outputs":[{"name":"","type":"uint256[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"time_count","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"internet_check","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]
+sample=eth.contract(abi)
+SampleHEX="0x60806040526000600255600060035534801561001a57600080fd5b506104988061002a6000396000f30060806040526004361061008e576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306661abd1461009357806316d061a5146100be578063576c8650146100d55780636ea9bfc51461011657806394e05b2c1461017c578063a2e62045146101bd578063e313163014610229578063ebfa6b9414610254575b600080fd5b34801561009f57600080fd5b506100a8610283565b6040518082815260200191505060405180910390f35b3480156100ca57600080fd5b506100d3610289565b005b3480156100e157600080fd5b50610100600480360381019080803590602001909291905050506102c5565b6040518082815260200191505060405180910390f35b34801561012257600080fd5b5061017a600480360381019080803590602001908201803590602001908080602002602001604051908101604052809392919081815260200183836020028082843782019150505050505091929192905050506102e8565b005b34801561018857600080fd5b506101a76004803603810190808035906020019092919050505061030e565b6040518082815260200191505060405180910390f35b3480156101c957600080fd5b506101d2610331565b6040518080602001828103825283818151815260200191508051906020019060200280838360005b838110156102155780820151818401526020810190506101fa565b505050509050019250505060405180910390f35b34801561023557600080fd5b5061023e610389565b6040518082815260200191505060405180910390f35b34801561026057600080fd5b5061026961038f565b604051808215151515815260200191505060405180910390f35b60025481565b60016002549080600181540180825580915050906001820390600052602060002001600090919290919091505550600160035401600381905550565b6000818154811015156102d457fe5b906000526020600020016000915090505481565b80600090805190602001906102fe9291906103fa565b5060016002540160028190555050565b60018181548110151561031d57fe5b906000526020600020016000915090505481565b6060600080548060200260200160405190810160405280929190818152602001828054801561037f57602002820191906000526020600020905b81548152602001906001019080831161036b575b5050505050905090565b60035481565b6000600260035410156103a557600190506103f7565b60016002600354038154811015156103b957fe5b9060005260206000200154600180600354038154811015156103d757fe5b90600052602060002001541415156103f257600190506103f7565b600090505b90565b828054828255906000526020600020908101928215610436579160200282015b8281111561043557825182559160200191906001019061041a565b5b5090506104439190610447565b5090565b61046991905b8082111561046557600081600090555060010161044d565b5090565b905600a165627a7a723058202d93648b048890e3df34e0f62882a19bc8b2fd94b1128ff0d2411b94b7202abd0029"
+sampleContract=sample.at("0xe76590b4189d1e0dcd8bc1582dc6daa1da81bac2")
+samplecontract.update.call()
+sampleContract.update.call()
+miner.stop()
+eth.accounts
+miner.start()
+miner.stop()
+admin.addpeer("enode://cea0cc8284f2915bb27ee91d4d423926a6c51040a257504993763f7efa1067ded0b752a24264fdc0c5c09ae12536bdd3229feb84974890df7d97ada89c4a70ae@127.0.0.1:30303?discport=0")
+admin.addPeer("enode://cea0cc8284f2915bb27ee91d4d423926a6c51040a257504993763f7efa1067ded0b752a24264fdc0c5c09ae12536bdd3229feb84974890df7d97ada89c4a70ae@127.0.0.1:30303?discport=0")
+admin.peers
+admin.addPeer("enode://cea0cc8284f2915bb27ee91d4d423926a6c51040a257504993763f7efa1067ded0b752a24264fdc0c5c09ae12536bdd3229feb84974890df7d97ada89c4a70ae@127.0.0.1:30303?discport=0")
+admin.peers
+admin.addPeer("enode://cea0cc8284f2915bb27ee91d4d423926a6c51040a257504993763f7efa1067ded0b752a24264fdc0c5c09ae12536bdd3229feb84974890df7d97ada89c4a70ae@127.0.0.1:30303?discport=0")
+admin.peers
+eth.getblock(1)
+eth.getBlock(1)
